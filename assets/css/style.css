@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+body {
+	background-color: white;
+	color: #000000;
+	font-family: 'Comfortaa', cursive;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+
+}
+
+ul {
+	display: flex;
+	gap: 20px;
+}
+
+#game {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+#game h3 {
+	text-align: center;
+}
+
+main h2 {
+	text-align: center;
+}
+
+#guess {
+	font-size: 48px;
+	padding-top: 100px;
+	padding-bottom: 10px;
+}
+
+#colors {	
+	width:1000px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 100px;
+	gap: 20px;
+}
+
+#colors div {
+	background-color: #ED2442;
+	height: 100px;
+	width: 100px;
+	padding: 20px;
+	border: 3px solid black;
+	cursor: pointer;
+}
+
+#colors div:hover {
+	transform: scale(1.1);
+}
+
+.bottom {
+	display: flex;
+	justify-content: space-between;
+	padding: 12px;
+}
